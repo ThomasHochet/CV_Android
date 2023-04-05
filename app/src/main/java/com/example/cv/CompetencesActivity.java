@@ -2,10 +2,14 @@ package com.example.cv;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.text.style.UnderlineSpan;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -65,6 +69,17 @@ public class CompetencesActivity extends AppCompatActivity {
 
         listLanguages.setAdapter(langageAdapter);
         listProjects.setAdapter(projetAdapter);
+
+        Button github = findViewById(R.id.github);
+        github.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://github.com/ThomasHochet/CV_Android";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

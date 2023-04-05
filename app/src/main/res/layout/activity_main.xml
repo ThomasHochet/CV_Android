@@ -20,6 +20,8 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="@color/green_dark"
+            app:cardElevation="2dp"
             >
 
             <ImageView
