@@ -1,0 +1,50 @@
+<resources>
+    <!-- Basic data -->
+    <string name="app_name">Curriculum Vitae</string>
+    <string name="name">Hochet Thomas</string>
+    <string name="tel">06.13.19.07.14</string>
+    <string name="mail">t.hochet@cfa-insta.fr</string>
+    <string name="address">87 Rue de Valenciennes, Mitry-Mory</string>
+
+    <!-- string for TextView -->
+    <string name="exp">Expériences</string>
+    <string name="form">Formations</string>
+    <string name="lang">Langages</string>
+    <string name="proj">Projets</string>
+
+    <!-- Buttons strings -->
+    <string name="btn">Suivant</string>
+
+    <!-- Arrays -->
+    <string-array name="experiences">
+        <item>2020; 2023; MySolutionConnect; Standard, Production de connecteur &amp; développement d\'outil interne</item>
+        <item>2019; 2019; Etablissement Géographique Interarmées; Développement interne</item>
+        <item>2017; 2018; Caisse des dépôts; Stage interne</item>
+    </string-array>
+
+    <string-array name="formations">
+        <item>2020; 2022; BTS SIO; CFA Insta - 12 Rue de Cléry, Paris</item>
+        <item>2019; 2019; DU Web; Université Marne la Vallée</item>
+        <item>2016; 2017; Bac STI2D; Pierre de Coubertin, Meaux</item>
+    </string-array>
+
+    <string-array name="langages">
+        <item>HTML; 90</item>
+        <item>CSS; 75</item>
+        <item>JavaScript; 80</item>
+        <item>PHP; 70</item>
+        <item>Java; 10</item>
+        <item>SQL; 95</item>
+        <item>Java Swing; 0</item>
+        <item>React; 75</item>
+        <item>Symfony; 60</item>
+    </string-array>
+
+    <string-array name="projets">
+        <item>OpenFlux Config; Outil d\'aide au déploiement de connecteur OpenFlux</item>
+        <item>Bloostor; Site e-commerce</item>
+        <item>Bloostor Mobile; Version android de Bloostor</item>
+        <item>Portfolio React; Portfolio d\'entrainement à React (+ librairies)</item>
+        <item>Small Apps; Application d\'exercice NextJS pour découvrir la technologie et plus</item>
+    </string-array>
+</resources>
