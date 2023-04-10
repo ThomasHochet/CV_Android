@@ -29,12 +29,12 @@ public class CompetencesActivity extends AppCompatActivity {
 
         // underline
         TextView titreLang = findViewById(R.id.textViewTitreLang);
-        SpannableStringBuilder underlineLang = new SpannableStringBuilder(getResources().getText(R.string.exp));
+        SpannableStringBuilder underlineLang = new SpannableStringBuilder(getResources().getText(R.string.lang));
         underlineLang.setSpan(new UnderlineSpan(), 0, underlineLang.length(), 0);
         titreLang.setText(underlineLang);
 
         TextView titreProj = findViewById(R.id.textViewTitreProj);
-        SpannableStringBuilder underlineProj = new SpannableStringBuilder(getResources().getText(R.string.exp));
+        SpannableStringBuilder underlineProj = new SpannableStringBuilder(getResources().getText(R.string.proj));
         underlineProj.setSpan(new UnderlineSpan(), 0, underlineProj.length(), 0);
         titreProj.setText(underlineProj);
 
